@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Remove Tracking Params",
+  "version": "0.0.1",
+
+  "description": "__MSG_description__",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "remove-tracking-params@stoyan"
+    }
+  },
+
+  "default_locale": "en"
+}
