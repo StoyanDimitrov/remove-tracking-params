@@ -1,6 +1,6 @@
 {
   "description": {
-    "message": "Clean up the clicked link from some tracking params before the request leaves the browser.",
+    "message": "Clean up the clicked link from some tracking URL parameters before the request leaves the browser.",
     "description": "Add-on description."
   }
 }

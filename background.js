@@ -2,7 +2,7 @@
 
 function isTracking(param)
 {
-  const settings = '^(utm_|yclid|fb_|action_)'
+  const settings = '^(utm_|fb_|yclid)'
     , re = new RegExp(settings)
 
   return re.test(param)
@@ -44,6 +44,9 @@ browser.webRequest.onBeforeRequest.addListener(
       redirectUrl: cleaned
     }
   },
-  {urls: ['<all_urls>']},
+  {
+    urls: ['<all_urls>'],
+    types:['main_frame']
+  },
   ['blocking']
 )
