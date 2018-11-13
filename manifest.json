@@ -1,16 +1,26 @@
 {
   "manifest_version": 2,
   "name": "Remove Tracking Params",
-  "version": "0.0.2",
+  "version": "0.1.1",
 
   "description": "__MSG_description__",
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "cleaners/util.js",
+      "cleaners/general.js",
+      "cleaners/aliexpress.js",
+      "cleaners/amazon.js",
+      "cleaners/massdrop.js",
+      "cleaners/mysupermarket.js",
+      "cleaners/sitepoint.js",
+      "cleaners/balkan.auction.js",
+      "background.js"
+    ]
   },
 
   "permissions": [
-    "<all_urls>",
+    "*://*/*",
     "webRequest",
     "webRequestBlocking"
   ],
