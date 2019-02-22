@@ -9,6 +9,7 @@ class Cleaner
         ]
       , evilParams = [
           'yclid',
+          'fbclid',
         ]
 
     evilParamsStartWith.map((begining) => {
