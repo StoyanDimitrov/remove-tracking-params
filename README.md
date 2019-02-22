@@ -9,7 +9,7 @@ The URL parameters removed by the add-on on all visited sites:
   <li><strong>yclid</strong></li>
 </ul>
 
-Sites that add-on uses customized tracking removel:
+Sites that add-on uses customized tracking prevention:
 <ul>
   <li>AliExpress</li>
   <li>Amazon (all current domains)</li>
