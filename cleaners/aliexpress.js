@@ -4,14 +4,33 @@ class AliExpress
   {
     const u = new URL(url)
       , evilParams = [
-          'spm',
-          'scm',
+          'cpt',
+          'initiative_id',
+          'isViewCP',
+          'origin',
           'pvid',
+          'scm',
+          'sk',
+          'spm',
+          'terminal_id',
           'trace',
           'tracelog',
-          'ws_ab_test',
           'traffic_analysisId',
+          'ws_ab_test',
         ]
+      , evilParamsStartWith = [
+          'aff_',
+        ]
+
+    evilParamsStartWith.map((begining) => {
+      for (let key of u.searchParams.keys()) {
+        if (! key.startsWith(begining)) {
+          continue
+        }
+
+        evilParams.push(key)
+      }
+    })
 
     Util.removeSearchParams(u, evilParams)
 
