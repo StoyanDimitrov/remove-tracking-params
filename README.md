@@ -5,7 +5,7 @@ The URL parameters removed by the add-on on all visited sites:
 <ul>
   <li>starting with <strong>utm_</strong></li>
   <li>starting with <strong>fb_</strong></li>
-  <li>starting with <strong>fbclid</strong></li>
+  <li><strong>fbclid</strong></li>
   <li><strong>yclid</strong></li>
 </ul>
 
