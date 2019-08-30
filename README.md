@@ -14,6 +14,7 @@ Sites that add-on uses customized tracking prevention:
   <li>AliExpress</li>
   <li>Amazon (all current domains)</li>
   <li>BalkanAuction</li>
+  <li>Instagram</li>
   <li>Massdrop</li>
   <li>MySupermarket</li>
   <li>Sitepoint</li>
