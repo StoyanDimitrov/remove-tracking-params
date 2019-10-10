@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Remove Tracking Params",
-  "version": "0.1.3",
+  "version": "0.1.4",
 
   "description": "__MSG_description__",
 
@@ -16,6 +16,7 @@
       "cleaners/sitepoint.js",
       "cleaners/balkan.auction.js",
       "cleaners/instagram.js",
+      "cleaners/github.js",
       "background.js"
     ]
   },

@@ -298,6 +298,30 @@ console.log('Instagram::general\n\t%s\n\t%s', cleaned, details.url)
   ['blocking']
 )
 
+// GitHub:general
+browser.webRequest.onBeforeRequest.addListener(
+  (details) => {
+    const ba = new GitHub()
+      , cleaned = ba.general(details.url)
+
+    if (cleaned === details.url) {
+      return
+    }
+
+console.log('GitHub::general\n\t%s\n\t%s', cleaned, details.url)
+    return {
+      redirectUrl: cleaned
+    }
+  },
+  {
+    urls: [
+      '*://*.github.com/*',
+    ],
+    types:['main_frame'],
+  },
+  ['blocking']
+)
+
 function getAmazonMatches(paths)
 {
   const tlds = [

@@ -1,5 +1,5 @@
 # Remove Tracking Params
-It is a simple browser extension that cleans up the clicked link from some tracking URL parameters before even the request leaves your browser.
+It is a simple browser extension that cleans up the opened URL from some tracking parameters before even the request leaves your browser.
 
 The URL parameters removed by the add-on on all visited sites:
 <ul>
@@ -14,6 +14,7 @@ Sites that add-on uses customized tracking prevention:
   <li>AliExpress</li>
   <li>Amazon (all current domains)</li>
   <li>BalkanAuction</li>
+  <li>GitHub (email notifications)</li>
   <li>Instagram</li>
   <li>Massdrop</li>
   <li>MySupermarket</li>
