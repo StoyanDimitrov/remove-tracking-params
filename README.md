@@ -21,4 +21,6 @@ Sites that add-on uses customized tracking prevention:
   <li>Sitepoint</li>
 </ul>
 
+There are <strong>no exceptions<strong> and <strong>no external</strong> resources loaded!
+
 There is no configuration.
